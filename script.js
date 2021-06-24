@@ -22,8 +22,10 @@ function writePassword() {
 
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    
+  }
 
 }
 
