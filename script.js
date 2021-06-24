@@ -7,6 +7,17 @@ var special = ["!","@","#","$","%","^","&",];
 // Use math.random with the lenght of an aray
 // Write password to the #password input
 function writePassword() {
+
+  var passlenght = prompt("Enter size of your password between 8-100");
+
+  let x = passlenght;
+  var passarray = [0];
+  var lenght = passlenght(x,10);
+
+  if (x >= 8 && x <= 100){
+    
+  }
+
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
