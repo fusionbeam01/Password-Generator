@@ -15,7 +15,9 @@ function writePassword() {
   var lenght = passlenght(x,10);
 
   if (x >= 8 && x <= 100){
-    
+    var ConLow = confirm("Confirm lower case character");
+    console.log(ConLow);
+    passarray = passarray.concat(lower);
   }
 
   var password = generatePassword();
